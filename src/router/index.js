@@ -8,7 +8,7 @@ import ScoreHistory from '@/pages/ScoreHistory.vue'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    {path: '/', component: TetrisGame},
+    {path: '/tetris', component: TetrisGame},
     {path: '/scoreHistory', component: ScoreHistory}
   ]
 })

@@ -3,7 +3,7 @@
   <nav class="navbar">
     <div class="logo">俄羅斯方塊</div>
     <ul class="nav-links" :class="{ open: menuOpen }">
-      <li><router-link to="/">遊戲頁面</router-link></li>
+      <li><router-link to="/tetris">遊戲頁面</router-link></li>
       <li><router-link to="/scoreHistory">分數紀錄</router-link></li>
     </ul>
     <button class="hamburger" @click="toggleMenu">
